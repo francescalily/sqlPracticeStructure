@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS wrong;
 DROP TABLE IF EXISTS person;
 
 CREATE TABLE person (
-    person_id INT GENERATED ALWAYS IDENTITY,
+    person_id INT GENERATED ALWAYS AS IDENTITY,
     person_name VARCHAR (50) NOT NULL,
     PRIMARY KEY (person_id)
 );
